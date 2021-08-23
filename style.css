@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: aqua;
+}
+
+body{
+    background-color: rgb(221, 2, 93);
+}
+
+.main_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin: 5rem;
+    background-color: rgba(47, 128, 47, 0.493);
+    padding: 2rem;
+    border-radius: 0.8rem;
+}
+button{
+    background-color: rgba(20, 109, 20, 0.541);
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+.grid {
+    margin-top: 1rem;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+  }
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+  
+.snake {
+    border-radius: 50%;
+    background-color: blue;
+}
+  
+.apple {
+    background-color: rgb(255, 0, 255);
+    border-radius: 50%;
+}
+.red{
+    background-color: rgba(109, 20, 24, 0.541) ;
+}
